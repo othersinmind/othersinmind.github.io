@@ -1,20 +1,53 @@
 
-body{
-   font-family: sans-serif;
+@font-face{
+	font-family: Open Sans Regular;
+	src: local(Open Sans Regular), url("assets/OpenSans-Regular.ttf");
 }
+
+
+@font-face{
+	font-family: Open Sans Light;
+	src: local(Open Sans Light), url("assets/OpenSans-Light.ttf");
+}
+
+
+@font-face{
+	font-family: Open Sans Condensed Light;
+	src: local(Open Sans Condensed Light), url("assets/OpenSans_Condensed-Light.ttf");
+}
+
+
+body{
+   font-family: Open Sans Regular, sans-serif;
+    font-size: 1.2rem;
+}
+
+h1{
+    font-size: 6rem;
+    font-family: Open Sans Light, sans serif;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    letter-spacing: -1.5px;
+}
+
+p{
+	text-align:justify;
+}
+
 
 .main-container{
     padding: 2rem;
+    margin: auto;
 }
 
 
-@media only screen and (min-width: 800px{
+@media screen and (min-width: 800px){
     .main-container{
 	    width: 80swv;
     }
 }
-@media only screen and (min-width: 1200px{
+@media screen and (min-width: 1200px){
     .main-container{
-        width: 50svw;
+	    width: 50svw;
     }
 }
