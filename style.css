@@ -22,12 +22,13 @@ body{
     font-size: 1.2rem;
 }
 
-p{
+img{
+    max-width:100%;
 }
 
 
 .main-container{
-    padding: 2rem;
+    padding: .5rem;
     margin: auto;
     container-type: inline-size;
 }
@@ -38,6 +39,10 @@ p{
 
 .multi-sentence{
     text-align: justify;
+}
+
+.image-container{
+ width: 100%;
 }
 
 .title-container{
@@ -60,10 +65,13 @@ p{
 @media screen and (min-width: 800px){
     .main-container{
 	    width: 80swv;
+            padding: 1rem;
+
     }
 }
 @media screen and (min-width: 1200px){
     .main-container{
 	    width: 50svw;
+            padding: 2rem;
     }
 }
