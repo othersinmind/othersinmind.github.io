@@ -43,6 +43,7 @@ img{
 
 .image-container{
  width: 100%;
+ margin-block: 2rem;
 }
 
 .title-container{
@@ -58,6 +59,29 @@ img{
     margin-bottom: 0.5rem;
     letter-spacing: -1.5px;
 }
+
+.person{
+    display: block;
+    text-decoration: none;
+    color: #444499;
+}
+
+.citation{
+    padding-inline: 2rem;
+    color: #444;
+    margin-block: 1rem;
+    text-align: justify;
+}
+
+.note{
+    text-decoration: none;
+    color: #449;
+}
+
+.note::before{
+    content: "- ";
+}
+
 
 
 
