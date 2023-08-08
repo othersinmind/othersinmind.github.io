@@ -29,6 +29,13 @@ img{
 #musicplayer{
 	display:none;
 }
+
+#music-link{
+	text-decoration: none;
+	color: #449;
+	margin-bottom: 2rem;
+}
+
 .main-container{
     padding: .5rem;
     margin: auto;
