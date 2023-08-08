@@ -13,11 +13,21 @@
 	      <h1 class="page-title"> Others in Mind </h1>
       </div>
 	<main>
+		<audio id="musicplayer" autoplay>
+                       <source src="/audio/othersinmind.mp3" />
+                </audio>
 		<p class="one-sentence">Others in Mind is a seminar held by Darya von Berner at Caspar-David-Friedrich-Institute Greifswald in 2023. </p>
 		<p class="one-sentence">Others in Mind is a Biotope on top of an upside down garbage can. </p>
 		<p class="one-sentence">Others in Mind  is Bewegung. Process and Reality (Alfred North Whitehead). </p>
 		<p class="one-sentence">Others in Mind is casual talk.  </p>
 		<p class="one-sentence">Others in Mind is taking care.  </p>
+
+		<a id="music-link" href="javascript:void(0)"> Click here to enable sound.</a>
+		<script>
+			const music = document.getElementById("music-link");
+                        const player = document.getElementById("musicplayer");
+			music.onclick = function(){player.play()};
+		</script>
 		<video style="width: 100%;" autoplay preload="metadata" controls>
             <source src="https://github.com/othersinmind/othersinmind.github.io/raw/main/videos/othersinmind.mp4#t=0.1" type="video/mp4" />
         </video>
